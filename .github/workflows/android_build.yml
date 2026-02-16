@@ -30,7 +30,7 @@ jobs:
       working-directory: V2rayNG
 
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: v2whitelist-apk
         path: V2rayNG/app/build/outputs/apk/release/*.apk
